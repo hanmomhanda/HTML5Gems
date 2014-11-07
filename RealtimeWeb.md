@@ -44,7 +44,7 @@ var url = '/get/newInfo';
 var polling = function(url) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', url);
-    xhr.onlreadystatechange = function () { ... };
+    xhr.onreadystatechange = function () { ... };
     xhr.send(url)
 };
 
@@ -55,7 +55,7 @@ var intervalId = setInterval( function() { polling(url); }, 30000 );
 
 << 주기가 맞는 경우와 맞지 않는 경우 비교 그림 >>
 
-반대로 서버 측에서 클라이언트에게 알려야 할 이벤트가 불규칙적으로 발생할 때에는, 이벤트가 발생하지 않아 서버가 사실 상 응답해야할 메시지가 없을 때에도 클라이언트는 주기만 돌아오면 계속 서버에 요청을 날리므로 불필요한 요청/응답에 의한 자원 낭비가 발생한다. 이런 단점을 보완할 수 있는 방식이 AJAX Long Polling이다.
+또한 서버 측에서 클라이언트에게 알려야 할 이벤트가 불규칙적으로 발생할 때에는, 이벤트가 발생하지 않아 서버가 사실 상 응답해야할 메시지가 없을 때에도 클라이언트는 주기만 돌아오면 계속 서버에 요청을 날리므로 불필요한 요청/응답에 의한 자원 낭비가 발생한다. 이런 단점을 보완할 수 있는 방식이 AJAX Long Polling이다.
 
 ## AJAX Long Polling
 
