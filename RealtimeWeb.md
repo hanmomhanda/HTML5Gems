@@ -152,4 +152,18 @@ Long Polling은 실질적으로 커뮤니케이션을 할 필요가 있을 때�
     - http://en.wikipedia.org/wiki/Ajax_(programming)
 - 네이글 알고리듬
     - http://en.wikipedia.org/wiki/Nagle's_algorithm
-
+- Websocket Protocol
+    - https://tools.ietf.org/html/rfc6455
+- Websocket API
+    - http://www.w3.org/TR/websockets/
+- Websocket Attributes
+    - http://www.tutorialspoint.com/html5/html5_websocket.htm
+- Realtime Web App 사례
+    - http://www.leggetter.co.uk/real-time-web-technologies-guide 
+- Websocket Q&A
+    - http://stackoverflow.com/questions/13967051/does-websocket-only-broadcasts-the-data-to-all-clients-connected-instead-of-send
+    - http://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet/12855533#12855533
+- HTTP 관련 각종 통계
+    - http://httparchive.org/
+- Websocket 정리 자료
+    - http://refcardz.dzone.com/refcardz/html5-websocket
